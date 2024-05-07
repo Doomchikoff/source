@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+section {
+    padding: 20px;
+}
+video, audio {
+    width: 100%;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.contact-info i {
+    margin-right: 40px;
+}
+#map {
+    padding: 20px;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap;     
+}
+.column {
+    flex-basis: 30%;
+    text-align: center;
+}
+.column a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+#btnScrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    font-size: 24px;
+    padding: 20px;
+    border: 0;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#btnScrollToTop:hover {
+    background-color: #0056b3;
+}
+.content {
+    margin-bottom: 40px;
+}
